@@ -12,6 +12,8 @@
 		30238E411C61546900A7BDAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30238E3F1C61546900A7BDAE /* Main.storyboard */; };
 		30238E431C61546900A7BDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30238E421C61546900A7BDAE /* Assets.xcassets */; };
 		30238E461C61546900A7BDAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30238E441C61546900A7BDAE /* LaunchScreen.storyboard */; };
+		30238E4E1C61547600A7BDAE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30238E4D1C61547600A7BDAE /* MapKit.framework */; };
+		30238E501C61626800A7BDAE /* StopInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30238E4F1C61626800A7BDAE /* StopInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		30238E421C61546900A7BDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30238E451C61546900A7BDAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30238E471C61546900A7BDAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30238E4D1C61547600A7BDAE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		30238E4F1C61626800A7BDAE /* StopInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30238E4E1C61547600A7BDAE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		30238E2F1C61546900A7BDAE = {
 			isa = PBXGroup;
 			children = (
+				30238E4D1C61547600A7BDAE /* MapKit.framework */,
 				30238E3A1C61546900A7BDAE /* GetOnThatBus */,
 				30238E391C61546900A7BDAE /* Products */,
 			);
@@ -56,6 +62,7 @@
 			children = (
 				30238E3B1C61546900A7BDAE /* AppDelegate.swift */,
 				30238E3D1C61546900A7BDAE /* ViewController.swift */,
+				30238E4F1C61626800A7BDAE /* StopInfo.swift */,
 				30238E3F1C61546900A7BDAE /* Main.storyboard */,
 				30238E421C61546900A7BDAE /* Assets.xcassets */,
 				30238E441C61546900A7BDAE /* LaunchScreen.storyboard */,
@@ -138,6 +145,7 @@
 			files = (
 				30238E3E1C61546900A7BDAE /* ViewController.swift in Sources */,
 				30238E3C1C61546900A7BDAE /* AppDelegate.swift in Sources */,
+				30238E501C61626800A7BDAE /* StopInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
